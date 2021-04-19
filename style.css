@@ -85,3 +85,22 @@
     justify-content: center;
     z-index: 1;
   }
+
+  .action-btn {
+    background-color: #fff;
+    border: 0;
+    color: #4d4c4d;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 20px;
+  }
+  
+  .action-btn.action-btn-big {
+    color: #000000;
+    font-size: 30px;
+  }
+  
+  .action-btn:focus {
+    outline: 0;
+  }
