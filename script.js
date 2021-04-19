@@ -101,3 +101,6 @@ audio.addEventListener('timeupdate', updateProgress); // this will update the ti
 
 // Click on progress bar
 progressContainer.addEventListener('click', setProgress); // this will play the song at a particular time instant when we'll click on the progress bar
+
+// Song ends
+audio.addEventListener('ended', nextSong); // when one song ends it will auto-play the nextSong
