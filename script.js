@@ -98,3 +98,6 @@ nextBtn.addEventListener('click', nextSong); // next song
 
 // Time/song update
 audio.addEventListener('timeupdate', updateProgress); // this will update the time and progress of the progress bar
+
+// Click on progress bar
+progressContainer.addEventListener('click', setProgress); // this will play the song at a particular time instant when we'll click on the progress bar
