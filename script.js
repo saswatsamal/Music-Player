@@ -45,3 +45,13 @@ function pauseSong() {
   // to pause the audio
     audio.pause();
   }
+
+// Previous song
+function prevSong() {
+    songIndex--;
+    if (songIndex < 0) {
+      songIndex = songs.length - 1;
+    }
+    loadSong(songs[songIndex]);
+    playSong(); // calling the function
+  }
