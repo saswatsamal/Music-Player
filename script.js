@@ -27,3 +27,12 @@ function loadSong(song) {
     audio.src = `musics/${song}.mp3`;
     cover.src = `imgs/${song}.jpeg`;
   }
+
+// Play song
+function playSong() {
+    musicContainer.classList.add('play');
+    playBtn.querySelector('i.fas').classList.remove('fa-play');
+    playBtn.querySelector('i.fas').classList.add('fa-pause');
+  // to play the audio
+    audio.play();
+  }
