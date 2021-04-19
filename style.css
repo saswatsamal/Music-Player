@@ -40,7 +40,7 @@
 
   .img-container::after {
     content: '';
-    background-color: #fff;
+    background-color: rgb(17, 16, 16);
     border-radius: 50%;
     position: absolute;
     bottom: 100%;
