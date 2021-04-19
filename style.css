@@ -31,3 +31,21 @@
     margin: 100px 0;
     z-index: 10;
   }
+
+  /* Image Container */
+  .img-container {
+    position: relative;
+    width: 110px;
+  }
+
+  .img-container::after {
+    content: '';
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, 50%);
+  }
