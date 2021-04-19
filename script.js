@@ -17,3 +17,6 @@ const songs = ['dream', 'drums', 'tech-house'];
 
 // Keep track of song
 let songIndex = 2;
+
+// Initially load song details into DOM
+loadSong(songs[songIndex]);
