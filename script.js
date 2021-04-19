@@ -95,3 +95,6 @@ playBtn.addEventListener('click', () => {
 // Change song
 prevBtn.addEventListener('click', prevSong); // prev song
 nextBtn.addEventListener('click', nextSong); // next song
+
+// Time/song update
+audio.addEventListener('timeupdate', updateProgress); // this will update the time and progress of the progress bar
