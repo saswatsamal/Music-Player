@@ -14,3 +14,6 @@ const cover = document.getElementById('cover');
 
 // Song titles
 const songs = ['dream', 'drums', 'tech-house'];
+
+// Keep track of song
+let songIndex = 2;
