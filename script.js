@@ -55,3 +55,13 @@ function prevSong() {
     loadSong(songs[songIndex]);
     playSong(); // calling the function
   }
+
+// Next song
+function nextSong() {
+    songIndex++;
+    if (songIndex > songs.length - 1) {
+      songIndex = 0;
+    }
+    loadSong(songs[songIndex]);
+    playSong(); // calling the function
+  }
